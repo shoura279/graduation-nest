@@ -1,6 +1,6 @@
 import { Body, Controller, Post } from "@nestjs/common";
 import { CreateAdminDto } from "./dto";
-import { CreateResponse } from "src/common/dto/response.dto";
+import { CreateResponse } from "../../common/dto/response.dto";
 import { Admin } from "src/models";
 import { AdminFactoryService } from "./factory";
 import { AuthService } from "./auth.service";
